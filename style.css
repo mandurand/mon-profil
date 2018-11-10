@@ -1,0 +1,123 @@
+
+@media (max-width: 960px) {
+
+	.container{
+		width: 700px;}
+}
+@media (max-width: 720px) {
+
+
+	.container{
+		width: 500px;}
+
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;}
+}
+
+body{
+	font-family: Helvetica;
+	background-color: rgb(25,25,25);
+}
+
+ h1,h2{
+ 	font-family:Courier;
+ 	border-radius:4px;
+ 	border-top: 1px rgba(230, 230, 230, 0.7) solid;
+    border-bottom: 1px rgba(230, 230, 230, 0.7) solid;
+}
+h1{
+	background-color: rgb(25,25,25);                       
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	color: white;
+
+}
+h2
+	{font-weight: 100;
+	background-color: rgb(0,0,127);
+	color:White;
+	font-size: 25px;
+
+	}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none ;
+  color :#6B72E1 ;
+  font-weight: 600 ;
+  font-size: 16px 	
+}
+	
+a:hover {
+	color:black;
+}
+
+	
+#Profile{
+	width: 300px;
+	margin:0px auto;
+	border-radius: 50%;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border: 2px solid #272727eb;
+	}
+
+.img-center{
+	width: 500px;
+	border: 2px solid #272727eb;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.btn-black{
+	padding: 15px 20px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	background-color: rgb(0,0,127);
+	font-size:20px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-black:hover{
+	background-color: purple;
+	color : yellow;
+}
+
+.text-center{
+	text-align: center;
+	padding:40px;
+}
+
+.container{
+	width: auto;
+	margin: 0px auto;                    
+	padding: 30px; 	                           
+	border-radius: 4px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	background-color: rgb(25,25,25);
+	text-align: center;
+
+}
+.card-design{
+	padding: 30px;                       
+	border-radius: 10px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);  
+	background-color: rgb(206,206,206); 
+	margin: 40px auto;
+	padding: 40px;
+}
+.font-size{
+	font-size: 100px;
+}
+
+.list-inline i {
+	color: rgb(25,25,25);
+}
+
+.list-inline i:hover {
+	color: white;
+}
+
+#introduction p {
+	margin-bottom: 35px;
+}
